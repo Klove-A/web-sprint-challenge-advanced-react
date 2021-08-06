@@ -15,14 +15,14 @@ const CheckoutForm = (props) => {
       <form onSubmit={handleSubmit}>
         <h2>Checkout Form</h2>
         <label htmlFor="firstName">
-          First Name:</label>
+          First Name:
           <input
             id="firstName"
             name="firstName"
             value={values.firstName}
             onChange={handleChanges}
           />
-        
+        </label>
         <label htmlFor="lastName">
           Last Name:
           <input
